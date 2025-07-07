@@ -7,6 +7,7 @@
 | [EasyDetector: Using Linear Probe to Detect the Provenance of Large Language Models](https://ieeexplore.ieee.org/abstract/document/10944960/) | TrustCom | 2024 | White-box | Intermediate Features | / |
 | [REEF: Representation Encoding Fingerprints for Large Language Models](https://arxiv.org/abs/2410.14273) | ICLR | 2025 | White-box | Intermediate Features | [Link](https://github.com/AI45Lab/REEF) |
 | [Gradient-Based Model Fingerprinting for LLM Similarity Detection and Family Classification](https://arxiv.org/abs/2506.01631) | arXiv | 2025 | White-box | Gradient | / |
+| [Intrinsic Fingerprint of LLMs: Continue Training is NOT All You Need to Steal A Model!](https://github.com/HonestyAGI/LLM-Fingerprint)| github | 2025 | White-box | Parameters | / |
 | [A Fingerprint for Large Language Models](http://arxiv.org/abs/2407.01235) | arXiv | 2024 | Black-box | Output Logits | [Link](https://github.com/solitude-alive/llm-fingerprint) |
 | [TRAP: Targeted Random Adversarial Prompt Honeypot for Black-Box Identification](https://aclanthology.org/2024.findings-acl.683.pdf) | ACL Findings | 2024 | Black-box | Output Content | [Link](https://github.com/parameterlab/trap) |
 | [Hide and Seek: Fingerprinting Large Language Models with Evolutionary Learning](https://arxiv.org/abs/2408.02871) | arXiv | 2024 | Black-box | Output Content | [Link](https://github.com/MorpheusAIs/HideNSeek) |
