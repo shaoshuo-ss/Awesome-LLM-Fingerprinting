@@ -1,5 +1,28 @@
 # Awesome-LLM-Fingerprinting
 
+This repository provides a collection of papers about LLM fingerprinting and is based on the paper entitled "[SoK: Large Language Model Copyright Auditing via Fingerprinting]()".
+
+## Definition of LLM Fingerprinting
+
+LLM fingerprinting is a passive approach that does not require modifying the model. Instead, it non-intrusively extracts a set of inherent yet distinctive characteristics that collectively serve as the model's "fingerprint". The core idea is that any model derived from the source model $M_o$ will preserve a statistically significant portion of this fingerprint.
+
+In this paper and repository, we follow a classic narrow definition of LLM watermarking and fingerprinting. The primary difference between watermarking and fingerprinting is whether the method requires modifying the model's parameters and LLM fingerprinting is a non-intrusive method. Some existing papers embed "fingerprints" into LLMs by modifying their parameters. In this paper and repository, we classify these methods as LLM watermarking.
+
+The primary advantage of LLM fingerprinting lies in its non-intrusive nature. Since it does not alter the model, it introduces no performance degradation. The computational overhead is typically confined, which is often less intensive than the fine-tuning required for watermarking. Consequently, fingerprinting offers a more flexible and widely applicable paradigm for copyright auditing, especially for models that are already in the public domain.
+
+## Citation
+
+If you find this repository useful, please consider citing the following paper:
+
+```bibtex
+@article{shao2025sok,
+    title={SoK: Large Language Model Copyright Auditing via Fingerprinting},
+    author={Shao, Shuo and Li, Yiming and He, Yu and Yao, Hongwei and Yang, Wenyuan and Tao, Dacheng and Qin, Zhan},
+    journal={arXiv preprint arXiv:XXXX.XXXX},
+    year={2025}
+}
+```
+
 ## List of Papers
 
 | Title                                                        | Conference/Journal | Year | Type         | Subtype       | Query Data                                      | Relied Features                 | Fingerprint Comparison                                 | Code                                                         |
