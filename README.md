@@ -10,9 +10,13 @@ In this paper and repository, we follow a classic narrow definition of LLM water
 
 The primary advantage of LLM fingerprinting lies in its non-intrusive nature. Since it does not alter the model, it introduces no performance degradation. The computational overhead is typically confined, which is often less intensive than the fine-tuning required for watermarking. Consequently, fingerprinting offers a more flexible and widely applicable paradigm for copyright auditing, especially for models that are already in the public domain.
 
+## LLM Fingerprinting Benchmark
+
+In this SoK, we also provide a comprehensive benchmark named [LeaFBench](https://github.com/shaoshuo-ss/LeaFBench) for evaluating LLM fingerprinting methods. 
+
 ## Citation
 
-If you find this repository useful, please consider citing the following paper:
+If you find this repository useful, please cite our paper:
 
 ```bibtex
 @article{shao2025sok,
