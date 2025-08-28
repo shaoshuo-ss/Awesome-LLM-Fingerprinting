@@ -1,6 +1,6 @@
 # Awesome-LLM-Fingerprinting
 
-This repository provides a collection of papers about LLM fingerprinting and is based on the paper entitled "[SoK: Large Language Model Copyright Auditing via Fingerprinting]()".
+This repository provides a collection of papers about LLM fingerprinting and is based on the paper entitled "[SoK: Large Language Model Copyright Auditing via Fingerprinting](http://arxiv.org/abs/2508.19843)".
 
 ## Definition of LLM Fingerprinting
 
@@ -22,7 +22,7 @@ If you find this repository useful, please cite our paper:
 @article{shao2025sok,
     title={SoK: Large Language Model Copyright Auditing via Fingerprinting},
     author={Shao, Shuo and Li, Yiming and He, Yu and Yao, Hongwei and Yang, Wenyuan and Tao, Dacheng and Qin, Zhan},
-    journal={arXiv preprint arXiv:XXXX.XXXX},
+    journal={arXiv preprint arXiv:2508.19843},
     year={2025}
 }
 ```
